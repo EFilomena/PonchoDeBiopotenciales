@@ -1,4 +1,4 @@
-update=16/01/2018 20:14:33
+update=21/01/2018 10:17:49
 version=1
 last_client=kicad
 [cvpcb]
@@ -26,6 +26,11 @@ BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
 [general]
 version=1
+[eeschema]
+version=1
+LibDir=
+[eeschema/libraries]
+LibName1=kicadlibs/PonchoBiopotenciales
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -36,8 +41,3 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
-[eeschema]
-version=1
-LibDir=
-[eeschema/libraries]
-LibName1=kicadlibs/PonchoBiopotenciales
