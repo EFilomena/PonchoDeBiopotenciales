@@ -1,0 +1,2808 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:/Repositorios/PonchoDeBiopotenciales/Hardware/PonchoBiopotenciales.sch</source>
+    <date>27/01/2018 11:55:42</date>
+    <tool>Eeschema 4.0.2-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Poncho de Adquisición de Biopotenciales</title>
+        <company>FIUNER</company>
+        <rev>1.1</rev>
+        <date>lun 05 oct 2015</date>
+        <source>PonchoBiopotenciales.sch</source>
+        <comment number="1" value="Bruno Javier Cesario - Gonzalo Cuenca - Eduardo Filomena (FIUNER)"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/PROTECCIÓN/" tstamps="/57BDBDC8/">
+      <title_block>
+        <title>Poncho de Adquisición de Biopotenciales</title>
+        <company>FIUNER</company>
+        <rev>1.0</rev>
+        <date/>
+        <source>Protección.sch</source>
+        <comment number="1" value="Bruno Javier Cesario - Gonzalo Cuenca - Eduardo Filomena (FIUNER)"/>
+        <comment number="2" value="Autores y Licencia del template (Diego Brengi - UNLaM)"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/ADS1299/" tstamps="/57BDC369/">
+      <title_block>
+        <title>Poncho de Adquisición de Biopotenciales</title>
+        <company>FIUNER</company>
+        <rev>1.0</rev>
+        <date/>
+        <source>ADS1299.sch</source>
+        <comment number="1" value="Bruno Javier Cesario - Gonzalo Cuenca - Eduardo Filomena (FIUNER)"/>
+        <comment number="2" value="Autores y Licencia del template (Diego Brengi - UNLaM)"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/AISLACIÓN/" tstamps="/57BDC3A8/">
+      <title_block>
+        <title>Poncho de Adquisición de Biopotenciales</title>
+        <company>FIUNER</company>
+        <rev>1.0</rev>
+        <date/>
+        <source>Aislación.sch</source>
+        <comment number="1" value="Bruno Javier Cesario - Gonzalo Cuenca - Eduardo Filomena (FIUNER)"/>
+        <comment number="2" value="Autores y Licencia del template (Diego Brengi - UNLaM)"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="G2">
+      <value>OSHWA</value>
+      <footprint>footprints:Logo_OSHWA</footprint>
+      <libsource lib="PonchoBiopotenciales" part="OSHWA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>560A0A28</tstamp>
+    </comp>
+    <comp ref="G1">
+      <value>Logo_Poncho</value>
+      <footprint>footprints:Logo_Poncho</footprint>
+      <libsource lib="PonchoBiopotenciales" part="Logo_Poncho"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>560CFFC0</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>2.2k</value>
+      <footprint>footprints:R_0805</footprint>
+      <datasheet>PYu-RC_Group_51_RoHS_L_8.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES SMD 2.2K OHM 5% 1/8W 0805</field>
+        <field name="Fabricante">Yageo</field>
+        <field name="Nro de parte">RC0805JR-072K2L</field>
+        <field name="Digikey">311-2.2KARCT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="R_Small"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C0F7DA</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>2.2k</value>
+      <footprint>footprints:R_0805</footprint>
+      <datasheet>PYu-RC_Group_51_RoHS_L_8.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES SMD 2.2K OHM 5% 1/8W 0805</field>
+        <field name="Fabricante">Yageo</field>
+        <field name="Nro de parte">RC0805JR-072K2L</field>
+        <field name="Digikey">311-2.2KARCT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="R_Small"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C0F80F</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>2.2k</value>
+      <footprint>footprints:R_0805</footprint>
+      <datasheet>PYu-RC_Group_51_RoHS_L_8.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES SMD 2.2K OHM 5% 1/8W 0805</field>
+        <field name="Fabricante">Yageo</field>
+        <field name="Nro de parte">RC0805JR-072K2L</field>
+        <field name="Digikey">311-2.2KARCT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="R_Small"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C0F836</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>2.2k</value>
+      <footprint>footprints:R_0805</footprint>
+      <datasheet>PYu-RC_Group_51_RoHS_L_8.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES SMD 2.2K OHM 5% 1/8W 0805</field>
+        <field name="Fabricante">Yageo</field>
+        <field name="Nro de parte">RC0805JR-072K2L</field>
+        <field name="Digikey">311-2.2KARCT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="R_Small"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C0F85F</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1nF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 1000PF 50V X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de parte">C0805C102K5RACTU</field>
+        <field name="Digikey">399-1147-1-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C11B8B</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1nF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 1000PF 50V X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de parte">C0805C102K5RACTU</field>
+        <field name="Digikey">399-1147-1-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C11BC4</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1nF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 1000PF 50V X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de parte">C0805C102K5RACTU</field>
+        <field name="Digikey">399-1147-1-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C11BFF</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>1nF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 1000PF 50V X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de parte">C0805C102K5RACTU</field>
+        <field name="Digikey">399-1147-1-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C11C32</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>1nF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 1000PF 50V X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de parte">C0805C102K5RACTU</field>
+        <field name="Digikey">399-1147-1-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C14B57</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>1nF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 1000PF 50V X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de parte">C0805C102K5RACTU</field>
+        <field name="Digikey">399-1147-1-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C14B5E</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>1nF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 1000PF 50V X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de parte">C0805C102K5RACTU</field>
+        <field name="Digikey">399-1147-1-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C14B65</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>1nF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 1000PF 50V X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de parte">C0805C102K5RACTU</field>
+        <field name="Digikey">399-1147-1-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C14B6C</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>1nF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 1000PF 50V X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de parte">C0805C102K5RACTU</field>
+        <field name="Digikey">399-1147-1-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C14CB4</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>1nF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 1000PF 50V X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de parte">C0805C102K5RACTU</field>
+        <field name="Digikey">399-1147-1-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C14CBB</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>1nF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 1000PF 50V X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de parte">C0805C102K5RACTU</field>
+        <field name="Digikey">399-1147-1-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C14CC2</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>1nF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 1000PF 50V X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de parte">C0805C102K5RACTU</field>
+        <field name="Digikey">399-1147-1-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C14CC9</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>1nF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 1000PF 50V X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de parte">C0805C102K5RACTU</field>
+        <field name="Digikey">399-1147-1-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C14EDD</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>1nF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 1000PF 50V X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de parte">C0805C102K5RACTU</field>
+        <field name="Digikey">399-1147-1-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C14EE4</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>1nF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 1000PF 50V X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de parte">C0805C102K5RACTU</field>
+        <field name="Digikey">399-1147-1-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C14EEB</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>1nF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 1000PF 50V X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de parte">C0805C102K5RACTU</field>
+        <field name="Digikey">399-1147-1-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C14EF2</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>2.2k</value>
+      <datasheet>PYu-RC_Group_51_RoHS_L_8.pdf</datasheet>
+      <fields>
+        <field name="Código Digikey">311-2.2KARCT-ND</field>
+        <field name="Fabricante">Yageo</field>
+        <field name="Nro de parte">RC0805JR-072K2L</field>
+        <field name="Digikey">311-2.2KARCT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="R_Small"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C16E65</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>2.2k</value>
+      <footprint>footprints:R_0805</footprint>
+      <datasheet>PYu-RC_Group_51_RoHS_L_8.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES SMD 2.2K OHM 5% 1/8W 0805</field>
+        <field name="Fabricante">Yageo</field>
+        <field name="Nro de parte">RC0805JR-072K2L</field>
+        <field name="Digikey">311-2.2KARCT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="R_Small"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C16E6C</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>2.2k</value>
+      <footprint>footprints:R_0805</footprint>
+      <datasheet>PYu-RC_Group_51_RoHS_L_8.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES SMD 2.2K OHM 5% 1/8W 0805</field>
+        <field name="Fabricante">Yageo</field>
+        <field name="Nro de parte">RC0805JR-072K2L</field>
+        <field name="Digikey">311-2.2KARCT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="R_Small"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C16E73</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>2.2k</value>
+      <footprint>footprints:R_0805</footprint>
+      <datasheet>PYu-RC_Group_51_RoHS_L_8.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES SMD 2.2K OHM 5% 1/8W 0805</field>
+        <field name="Fabricante">Yageo</field>
+        <field name="Nro de parte">RC0805JR-072K2L</field>
+        <field name="Digikey">311-2.2KARCT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="R_Small"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C16E7A</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>2.2k</value>
+      <footprint>footprints:R_0805</footprint>
+      <datasheet>PYu-RC_Group_51_RoHS_L_8.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES SMD 2.2K OHM 5% 1/8W 0805</field>
+        <field name="Fabricante">Yageo</field>
+        <field name="Nro de parte">RC0805JR-072K2L</field>
+        <field name="Digikey">311-2.2KARCT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="R_Small"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C17163</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>2.2k</value>
+      <footprint>footprints:R_0805</footprint>
+      <datasheet>PYu-RC_Group_51_RoHS_L_8.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES SMD 2.2K OHM 5% 1/8W 0805</field>
+        <field name="Fabricante">Yageo</field>
+        <field name="Nro de parte">RC0805JR-072K2L</field>
+        <field name="Digikey">311-2.2KARCT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="R_Small"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C1716A</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>1nF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 1000PF 50V X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de parte">C0805C102K5RACTU</field>
+        <field name="Digikey">399-1147-1-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C17623</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>1nF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 1000PF 50V X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de parte">C0805C102K5RACTU</field>
+        <field name="Digikey">399-1147-1-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C17690</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TPD2E001</value>
+      <footprint>footprints:SOT-23-5</footprint>
+      <datasheet>tpd2e001.pdf</datasheet>
+      <fields>
+        <field name="Descripción">TVS DIODE 5.5VWM 100VC SOT5</field>
+        <field name="Fabricante">Texas Instruments</field>
+        <field name="Nro de parte">TPD2E001DRLR</field>
+        <field name="Digikey">296-21883-1-ND</field>
+        <field name="Footprint">SOT-553	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="TPD2E001"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C6190B</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>TPD2E001</value>
+      <footprint>footprints:SOT-23-5</footprint>
+      <datasheet>tpd2e001.pdf</datasheet>
+      <fields>
+        <field name="Descripción">TVS DIODE 5.5VWM 100VC SOT5</field>
+        <field name="Fabricante">Texas Instruments</field>
+        <field name="Nro de parte">TPD2E001DRLR</field>
+        <field name="Digikey">296-21883-1-ND</field>
+        <field name="Footprint">SOT-553	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="TPD2E001"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C619BE</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>TPD2E001</value>
+      <footprint>footprints:SOT-23-5</footprint>
+      <datasheet>tpd2e001.pdf</datasheet>
+      <fields>
+        <field name="Descripción">TVS DIODE 5.5VWM 100VC SOT5</field>
+        <field name="Fabricante">Texas Instruments</field>
+        <field name="Nro de parte">TPD2E001DRLR</field>
+        <field name="Digikey">296-21883-1-ND</field>
+        <field name="Footprint">SOT-553	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="TPD2E001"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C62835</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>TPD2E001</value>
+      <footprint>footprints:SOT-23-5</footprint>
+      <datasheet>tpd2e001.pdf</datasheet>
+      <fields>
+        <field name="Descripción">TVS DIODE 5.5VWM 100VC SOT5</field>
+        <field name="Fabricante">Texas Instruments</field>
+        <field name="Nro de parte">TPD2E001DRLR</field>
+        <field name="Digikey">296-21883-1-ND</field>
+        <field name="Footprint">SOT-553	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="TPD2E001"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C628F7</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>TPD2E001</value>
+      <footprint>footprints:SOT-23-5</footprint>
+      <datasheet>tpd2e001.pdf</datasheet>
+      <fields>
+        <field name="Descripción">TVS DIODE 5.5VWM 100VC SOT5</field>
+        <field name="Fabricante">Texas Instruments</field>
+        <field name="Nro de parte">TPD2E001DRLR</field>
+        <field name="Digikey">296-21883-1-ND</field>
+        <field name="Footprint">SOT-553	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="TPD2E001"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C64088</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>TPD2E001</value>
+      <footprint>footprints:SOT-23-5</footprint>
+      <datasheet>tpd2e001.pdf</datasheet>
+      <fields>
+        <field name="Descripción">TVS DIODE 5.5VWM 100VC SOT5</field>
+        <field name="Fabricante">Texas Instruments</field>
+        <field name="Nro de parte">TPD2E001DRLR</field>
+        <field name="Digikey">296-21883-1-ND</field>
+        <field name="Footprint">SOT-553	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="TPD2E001"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C6414A</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>TPD2E001</value>
+      <footprint>footprints:SOT-23-5</footprint>
+      <datasheet>tpd2e001.pdf</datasheet>
+      <fields>
+        <field name="Descripción">TVS DIODE 5.5VWM 100VC SOT5</field>
+        <field name="Fabricante">Texas Instruments</field>
+        <field name="Nro de parte">TPD2E001DRLR</field>
+        <field name="Digikey">296-21883-1-ND</field>
+        <field name="Footprint">SOT-553	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="TPD2E001"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C6439C</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>TPD2E001</value>
+      <footprint>footprints:SOT-23-5</footprint>
+      <datasheet>tpd2e001.pdf</datasheet>
+      <fields>
+        <field name="Descripción">TVS DIODE 5.5VWM 100VC SOT5</field>
+        <field name="Fabricante">Texas Instruments</field>
+        <field name="Nro de parte">TPD2E001DRLR</field>
+        <field name="Digikey">296-21883-1-ND</field>
+        <field name="Footprint">SOT-553	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="TPD2E001"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C644C8</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>TPD2E001</value>
+      <footprint>footprints:SOT-23-5</footprint>
+      <datasheet>tpd2e001.pdf</datasheet>
+      <fields>
+        <field name="Descripción">TVS DIODE 5.5VWM 100VC SOT5</field>
+        <field name="Fabricante">Texas Instruments</field>
+        <field name="Nro de parte">TPD2E001DRLR</field>
+        <field name="Digikey">296-21883-1-ND</field>
+        <field name="Footprint">SOT-553	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="TPD2E001"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C64599</tstamp>
+    </comp>
+    <comp ref="U15">
+      <value>TPD2E001</value>
+      <footprint>footprints:SOT-23-5</footprint>
+      <datasheet>tpd2e001.pdf</datasheet>
+      <fields>
+        <field name="Descripción">TVS DIODE 5.5VWM 100VC SOT5</field>
+        <field name="Fabricante">Texas Instruments</field>
+        <field name="Nro de parte">TPD2E001DRLR</field>
+        <field name="Digikey">296-21883-1-ND</field>
+        <field name="Footprint">SOT-553	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="TPD2E001"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57D06AC4</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>2.2k</value>
+      <footprint>footprints:R_0805</footprint>
+      <datasheet>PYu-RC_Group_51_RoHS_L_8.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES SMD 2.2K OHM 5% 1/8W 0805</field>
+        <field name="Fabricante">Yageo</field>
+        <field name="Nro de parte">RC0805JR-072K2L</field>
+        <field name="Digikey">311-2.2KARCT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="R_Small"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57D06E46</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>2.2k</value>
+      <footprint>footprints:R_0805</footprint>
+      <datasheet>PYu-RC_Group_51_RoHS_L_8.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES SMD 2.2K OHM 5% 1/8W 0805</field>
+        <field name="Fabricante">Yageo</field>
+        <field name="Nro de parte">RC0805JR-072K2L</field>
+        <field name="Digikey">311-2.2KARCT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="R_Small"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57D0710C</tstamp>
+    </comp>
+    <comp ref="C41">
+      <value>1nF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 1000PF 50V X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de parte">C0805C102K5RACTU</field>
+        <field name="Digikey">399-1147-1-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57D079C5</tstamp>
+    </comp>
+    <comp ref="C42">
+      <value>1nF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 1000PF 50V X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de parte">C0805C102K5RACTU</field>
+        <field name="Digikey">399-1147-1-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57D07AE3</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>20POS SIL VERTICAL PIN HEADER</value>
+      <footprint>footprints:Pin_Header_Straight_1x20</footprint>
+      <datasheet>M20-999.pdf</datasheet>
+      <fields>
+        <field name="Descripción">20 Positions Header, Cuttable Connector 0.100" (2.54mm) Through Hole Tin</field>
+        <field name="Fabricante">Harwin Inc.</field>
+        <field name="Nro de parte">M20-9992046</field>
+        <field name="Digikey">952-1902-ND</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="CONN_01X20"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57D115B1</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>2.2k</value>
+      <footprint>footprints:R_0805</footprint>
+      <datasheet>PYu-RC_Group_51_RoHS_L_8.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES SMD 2.2K OHM 5% 1/8W 0805</field>
+        <field name="Fabricante">Yageo</field>
+        <field name="Nro de parte">RC0805JR-072K2L</field>
+        <field name="Digikey">311-2.2KARCT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="R_Small"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C16B59</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>2.2k</value>
+      <footprint>footprints:R_0805</footprint>
+      <datasheet>PYu-RC_Group_51_RoHS_L_8.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES SMD 2.2K OHM 5% 1/8W 0805</field>
+        <field name="Fabricante">Yageo</field>
+        <field name="Nro de parte">RC0805JR-072K2L</field>
+        <field name="Digikey">311-2.2KARCT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="R_Small"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C16B60</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>2.2k</value>
+      <footprint>footprints:R_0805</footprint>
+      <datasheet>PYu-RC_Group_51_RoHS_L_8.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES SMD 2.2K OHM 5% 1/8W 0805</field>
+        <field name="Fabricante">Yageo</field>
+        <field name="Nro de parte">RC0805JR-072K2L</field>
+        <field name="Digikey">311-2.2KARCT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="R_Small"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C16B52</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>2.2k</value>
+      <footprint>footprints:R_0805</footprint>
+      <datasheet>PYu-RC_Group_51_RoHS_L_8.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES SMD 2.2K OHM 5% 1/8W 0805</field>
+        <field name="Fabricante">Yageo</field>
+        <field name="Nro de parte">RC0805JR-072K2L</field>
+        <field name="Digikey">311-2.2KARCT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="R_Small"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C16A7F</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>2.2k</value>
+      <footprint>footprints:R_0805</footprint>
+      <datasheet>PYu-RC_Group_51_RoHS_L_8.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES SMD 2.2K OHM 5% 1/8W 0805</field>
+        <field name="Fabricante">Yageo</field>
+        <field name="Nro de parte">RC0805JR-072K2L</field>
+        <field name="Digikey">311-2.2KARCT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="R_Small"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C16A86</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>2.2k</value>
+      <footprint>footprints:R_0805</footprint>
+      <datasheet>PYu-RC_Group_51_RoHS_L_8.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES SMD 2.2K OHM 5% 1/8W 0805</field>
+        <field name="Fabricante">Yageo</field>
+        <field name="Nro de parte">RC0805JR-072K2L</field>
+        <field name="Digikey">311-2.2KARCT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="R_Small"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C16A78</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>2.2k</value>
+      <footprint>footprints:R_0805</footprint>
+      <datasheet>PYu-RC_Group_51_RoHS_L_8.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES SMD 2.2K OHM 5% 1/8W 0805</field>
+        <field name="Fabricante">Yageo</field>
+        <field name="Nro de parte">RC0805JR-072K2L</field>
+        <field name="Digikey">311-2.2KARCT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="R_Small"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C16A71</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>2.2k</value>
+      <footprint>footprints:R_0805</footprint>
+      <datasheet>PYu-RC_Group_51_RoHS_L_8.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES SMD 2.2K OHM 5% 1/8W 0805</field>
+        <field name="Fabricante">Yageo</field>
+        <field name="Nro de parte">RC0805JR-072K2L</field>
+        <field name="Digikey">311-2.2KARCT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="R_Small"/>
+      <sheetpath names="/PROTECCIÓN/" tstamps="/57BDBDC8/"/>
+      <tstamp>57C16B4B</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>ADS1299</value>
+      <footprint>footprints:TQFP-64_10x10mm_Pitch0.5mm</footprint>
+      <datasheet>ads1299.pdf</datasheet>
+      <fields>
+        <field name="Descripción">IC AFE 8-CH 24BIT 64TQFP</field>
+        <field name="Fabricante">Texas Instruments</field>
+        <field name="Nro de parte">ADS1299IPAG</field>
+        <field name="Digikey">296-35009-ND</field>
+        <field name="Footprint">64-TQFP	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="ADS1299"/>
+      <sheetpath names="/ADS1299/" tstamps="/57BDC369/"/>
+      <tstamp>57C2484D</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>0.1uF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de parte">C0805C104J5RACTU</field>
+        <field name="Digikey">399-1171-1-ND</field>
+        <field name="Footprint">0805 (2012 Metric)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/ADS1299/" tstamps="/57BDC369/"/>
+      <tstamp>57C25306</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>10uF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>GRM219R61E106KA12-01.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 10UF 25V X5R 0805</field>
+        <field name="Fabricante">Murata Electronics North America</field>
+        <field name="Nro de parte">GRM219R61E106KA12D</field>
+        <field name="Digikey">490-7207-1-ND</field>
+        <field name="Footprint">0805 (2012 Metric)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/ADS1299/" tstamps="/57BDC369/"/>
+      <tstamp>57C2534F</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>1uF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 1UF 16V X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de parte">C0805C105K4RACTU</field>
+        <field name="Digikey">399-1284-1-ND</field>
+        <field name="Footprint">0805 (2012 Metric)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/ADS1299/" tstamps="/57BDC369/"/>
+      <tstamp>57C2536E</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>1uF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 1UF 16V X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de parte">C0805C105K4RACTU</field>
+        <field name="Digikey">399-1284-1-ND</field>
+        <field name="Footprint">0805 (2012 Metric)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/ADS1299/" tstamps="/57BDC369/"/>
+      <tstamp>57C253B7</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>100uF</value>
+      <footprint>footprints:C_1206</footprint>
+      <datasheet>KEM_C1006_X5R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 100UF 10V X5R 1210</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de parte">C1210C107M8PACTU</field>
+        <field name="Digikey">399-11631-1-ND</field>
+        <field name="Footprint">1210 (3225 Metric)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/ADS1299/" tstamps="/57BDC369/"/>
+      <tstamp>57C2544C</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>0.1uF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de parte">C0805C104J5RACTU</field>
+        <field name="Digikey">399-1171-1-ND</field>
+        <field name="Footprint">0805 (2012 Metric)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/ADS1299/" tstamps="/57BDC369/"/>
+      <tstamp>57C25C5E</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>1uF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 1UF 16V X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de parte">C0805C105K4RACTU</field>
+        <field name="Digikey">399-1284-1-ND</field>
+        <field name="Footprint">0805 (2012 Metric)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/ADS1299/" tstamps="/57BDC369/"/>
+      <tstamp>57C25CA5</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>0.1uF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de parte">C0805C104J5RACTU</field>
+        <field name="Digikey">399-1171-1-ND</field>
+        <field name="Footprint">0805 (2012 Metric)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/ADS1299/" tstamps="/57BDC369/"/>
+      <tstamp>57C27C51</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>1uF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 1UF 16V X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de parte">C0805C105K4RACTU</field>
+        <field name="Digikey">399-1284-1-ND</field>
+        <field name="Footprint">0805 (2012 Metric)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/ADS1299/" tstamps="/57BDC369/"/>
+      <tstamp>57C27C96</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>0.1uF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de parte">C0805C104J5RACTU</field>
+        <field name="Digikey">399-1171-1-ND</field>
+        <field name="Footprint">0805 (2012 Metric)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/ADS1299/" tstamps="/57BDC369/"/>
+      <tstamp>57C27CC9</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>1uF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 1UF 16V X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de parte">C0805C105K4RACTU</field>
+        <field name="Digikey">399-1284-1-ND</field>
+        <field name="Footprint">0805 (2012 Metric)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/ADS1299/" tstamps="/57BDC369/"/>
+      <tstamp>57C27CFC</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>0</value>
+      <footprint>footprints:R_0805</footprint>
+      <datasheet>PYu-RC_Group_51_RoHS_L_8.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES SMD 0 OHM JUMPER 1/8W 0805</field>
+        <field name="Fabricante">Yageo</field>
+        <field name="Nro de parte">RC0805JR-070RL</field>
+        <field name="Digikey">311-0.0ARCT-ND</field>
+        <field name="Footprint">0805 (2012 Metric)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="R_Small"/>
+      <sheetpath names="/ADS1299/" tstamps="/57BDC369/"/>
+      <tstamp>57CD64D3</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>390k</value>
+      <footprint>footprints:R_0805</footprint>
+      <datasheet>PYu-RC_Group_51_RoHS_L_8.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES SMD 390K OHM 5% 1/8W 0805</field>
+        <field name="Fabricante">Yageo</field>
+        <field name="Nro de parte">RC0805JR-07390KL</field>
+        <field name="Digikey">311-390KARCT-ND</field>
+        <field name="Footprint">0805 (2012 Metric)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="R_Small"/>
+      <sheetpath names="/ADS1299/" tstamps="/57BDC369/"/>
+      <tstamp>57CD652C</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>0.01uF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 10000PF 50V X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de parte">C0805C103K5RACTU</field>
+        <field name="Digikey">399-1158-1-ND</field>
+        <field name="Footprint">0805 (2012 Metric)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/ADS1299/" tstamps="/57BDC369/"/>
+      <tstamp>57CD656F</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>JUMPER</value>
+      <footprint>footprints:Pin_Header_Straight_1x02</footprint>
+      <datasheet>961_Series.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CONN HEADER VERT SGL 20POS GOLD</field>
+        <field name="Fabricante">3M</field>
+        <field name="Nro de parte">961120-6404-AR</field>
+        <field name="Digikey">3M9457-20-ND</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="JUMPER"/>
+      <sheetpath names="/ADS1299/" tstamps="/57BDC369/"/>
+      <tstamp>57CCC523</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>JUMPER3</value>
+      <footprint>footprints:Pin_Header_Straight_1x03</footprint>
+      <datasheet>961_Series.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CONN HEADER VERT SGL 20POS GOLD</field>
+        <field name="Fabricante">3M</field>
+        <field name="Nro de parte">961120-6404-AR</field>
+        <field name="Digikey">3M9457-20-ND</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="JUMPER3"/>
+      <sheetpath names="/ADS1299/" tstamps="/57BDC369/"/>
+      <tstamp>57CCC5AE</tstamp>
+    </comp>
+    <comp ref="U14">
+      <value>OPA2376</value>
+      <footprint>footprints:SOIC-8-N</footprint>
+      <datasheet>opa2376.pdf</datasheet>
+      <fields>
+        <field name="Descripción">IC OPAMP GP 5.5MHZ RRO 8SOIC</field>
+        <field name="Fabricante">Texas Instruments</field>
+        <field name="Nro de parte">OPA2376AIDR</field>
+        <field name="Digikey">296-22564-1-ND</field>
+        <field name="Footprint">8-SOIC (0.154", 3.90mm Width)</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="OPA2376"/>
+      <sheetpath names="/ADS1299/" tstamps="/57BDC369/"/>
+      <tstamp>57CCD33C</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>10k</value>
+      <footprint>footprints:R_0805</footprint>
+      <datasheet>PYu-RC_Group_51_RoHS_L_8.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES SMD 10K OHM 5% 1/8W 0805</field>
+        <field name="Fabricante">Yageo</field>
+        <field name="Nro de parte">RC0805JR-0710KL</field>
+        <field name="Digikey">311-10KARCT-ND</field>
+        <field name="Footprint">0805 (2012 Metric)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="R_Small"/>
+      <sheetpath names="/ADS1299/" tstamps="/57BDC369/"/>
+      <tstamp>57CCD606</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>1uF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 1UF 16V X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de parte">C0805C105K4RACTU</field>
+        <field name="Digikey">399-1284-1-ND</field>
+        <field name="Footprint">0805 (2012 Metric)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/ADS1299/" tstamps="/57BDC369/"/>
+      <tstamp>57CCE019</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>1uF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 1UF 16V X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de parte">C0805C105K4RACTU</field>
+        <field name="Digikey">399-1284-1-ND</field>
+        <field name="Footprint">0805 (2012 Metric)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/ADS1299/" tstamps="/57BDC369/"/>
+      <tstamp>57CCE4F2</tstamp>
+    </comp>
+    <comp ref="JP3">
+      <value>JUMPER3</value>
+      <footprint>footprints:Pin_Header_Straight_1x03</footprint>
+      <datasheet>961_Series.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CONN HEADER VERT SGL 20POS GOLD</field>
+        <field name="Fabricante">3M</field>
+        <field name="Nro de parte">961120-6404-AR</field>
+        <field name="Digikey">3M9457-20-ND</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="JUMPER3"/>
+      <sheetpath names="/ADS1299/" tstamps="/57BDC369/"/>
+      <tstamp>57CD5533</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>0</value>
+      <footprint>footprints:R_0805</footprint>
+      <datasheet>PYu-RC_Group_51_RoHS_L_8.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES SMD 0 OHM JUMPER 1/8W 0805</field>
+        <field name="Fabricante">Yageo</field>
+        <field name="Nro de parte">RC0805JR-070RL</field>
+        <field name="Digikey">311-0.0ARCT-ND</field>
+        <field name="Footprint">0805 (2012 Metric)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="R_Small"/>
+      <sheetpath names="/ADS1299/" tstamps="/57BDC369/"/>
+      <tstamp>57CD56FB</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>0</value>
+      <footprint>footprints:R_0805</footprint>
+      <datasheet>PYu-RC_Group_51_RoHS_L_8.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES SMD 0 OHM JUMPER 1/8W 0805</field>
+        <field name="Fabricante">Yageo</field>
+        <field name="Nro de parte">RC0805JR-070RL</field>
+        <field name="Digikey">311-0.0ARCT-ND</field>
+        <field name="Footprint">0805 (2012 Metric)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="R_Small"/>
+      <sheetpath names="/ADS1299/" tstamps="/57BDC369/"/>
+      <tstamp>57CD57BA</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>1nF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 1000PF 50V X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de parte">C0805C102K5RACTU</field>
+        <field name="Digikey">399-1147-1-ND</field>
+        <field name="Footprint">0805 (2012 Metric)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/ADS1299/" tstamps="/57BDC369/"/>
+      <tstamp>57CD5872</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>0</value>
+      <footprint>footprints:R_0805</footprint>
+      <datasheet>PYu-RC_Group_51_RoHS_L_8.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES SMD 0 OHM JUMPER 1/8W 0805</field>
+        <field name="Fabricante">Yageo</field>
+        <field name="Nro de parte">RC0805JR-070RL</field>
+        <field name="Digikey">311-0.0ARCT-ND</field>
+        <field name="Footprint">0805 (2012 Metric)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="R_Small"/>
+      <sheetpath names="/ADS1299/" tstamps="/57BDC369/"/>
+      <tstamp>57CD7390</tstamp>
+    </comp>
+    <comp ref="JP4">
+      <value>JUMPER3</value>
+      <footprint>footprints:Pin_Header_Straight_1x03</footprint>
+      <datasheet>961_Series.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CONN HEADER VERT SGL 20POS GOLD</field>
+        <field name="Fabricante">3M</field>
+        <field name="Nro de parte">961120-6404-AR</field>
+        <field name="Digikey">3M9457-20-ND</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="JUMPER3"/>
+      <sheetpath names="/ADS1299/" tstamps="/57BDC369/"/>
+      <tstamp>57CD76EF</tstamp>
+    </comp>
+    <comp ref="C39">
+      <value>1uF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 1UF 16V X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de parte">C0805C105K4RACTU</field>
+        <field name="Digikey">399-1284-1-ND</field>
+        <field name="Footprint">0805 (2012 Metric)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/ADS1299/" tstamps="/57BDC369/"/>
+      <tstamp>57CD9F45</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>1uF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 1UF 16V X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de parte">C0805C105K4RACTU</field>
+        <field name="Digikey">399-1284-1-ND</field>
+        <field name="Footprint">0805 (2012 Metric)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/ADS1299/" tstamps="/57BDC369/"/>
+      <tstamp>57CDA7E8</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>IOs Multipropósito</value>
+      <footprint>footprints:Pin_Header_Straight_1x05</footprint>
+      <datasheet>961_Series.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CONN HEADER VERT SGL 20POS GOLD</field>
+        <field name="Fabricante">3M</field>
+        <field name="Nro de parte">961120-6404-AR</field>
+        <field name="Digikey">3M9457-20-ND</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="CONN_01X05"/>
+      <sheetpath names="/ADS1299/" tstamps="/57BDC369/"/>
+      <tstamp>580DF4D4</tstamp>
+    </comp>
+    <comp ref="Jumper_STD1">
+      <value>J_STD</value>
+      <footprint>footprints:Jumpers_Default</footprint>
+      <datasheet>NONE</datasheet>
+      <libsource lib="PonchoBiopotenciales" part="J_STD"/>
+      <sheetpath names="/ADS1299/" tstamps="/57BDC369/"/>
+      <tstamp>58141C37</tstamp>
+    </comp>
+    <comp ref="Jumper_Config1">
+      <value>J_CFG</value>
+      <libsource lib="PonchoBiopotenciales" part="J_CFG"/>
+      <sheetpath names="/ADS1299/" tstamps="/57BDC369/"/>
+      <tstamp>58141C89</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>0.1uF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de parte">C0805C104J5RACTU</field>
+        <field name="Digikey">399-1171-1-ND</field>
+        <field name="Footprint">0805 (2012 Metric)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/AISLACIÓN/" tstamps="/57BDC3A8/"/>
+      <tstamp>57C3B1DA</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>10uF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>GRM219R61E106KA12-01.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 10UF 25V X5R 0805</field>
+        <field name="Fabricante">Murata Electronics North America</field>
+        <field name="Nro de parte">GRM219R61E106KA12D</field>
+        <field name="Digikey">490-7207-1-ND</field>
+        <field name="Footprint">0805 (2012 Metric)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/AISLACIÓN/" tstamps="/57BDC3A8/"/>
+      <tstamp>57C3B223</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>ADuM6401</value>
+      <footprint>footprints:SO-16-W</footprint>
+      <datasheet>ADuM6400_6401_6402_6403_6404.pdf</datasheet>
+      <fields>
+        <field name="Descripción">DGTL ISO 5KV 4CH GEN PURP 16SOIC</field>
+        <field name="Fabricante">Analog Devices Inc</field>
+        <field name="Nro de parte">ADUM6401CRWZ</field>
+        <field name="Digikey">ADUM6401CRWZ-ND</field>
+        <field name="Footprint">16-SOIC (0.295", 7.50mm Width)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="ADuM6401-RESCUE-PonchoERG"/>
+      <sheetpath names="/AISLACIÓN/" tstamps="/57BDC3A8/"/>
+      <tstamp>57C7EA7C</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>ADuM2401</value>
+      <footprint>footprints:SO-16-W</footprint>
+      <datasheet>ADuM2400_2401_2402.pdf</datasheet>
+      <fields>
+        <field name="Descripción">DGTL ISO 5KV 4CH GEN PURP 16SOIC</field>
+        <field name="Fabricante">Analog Devices Inc.</field>
+        <field name="Nro de parte">ADUM2401ARWZ-RL</field>
+        <field name="Digikey">ADUM2401ARWZ-RLCT-ND</field>
+        <field name="Footprint">16-SOIC (0.295", 7.50mm Width)</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="ADuM2401"/>
+      <sheetpath names="/AISLACIÓN/" tstamps="/57BDC3A8/"/>
+      <tstamp>57C7EB57</tstamp>
+    </comp>
+    <comp ref="XA1">
+      <value>Conn_Poncho2P_2x_20x2</value>
+      <footprint>footprints:Conn_Poncho_Izquierdo</footprint>
+      <datasheet>xRxCzzzDxxN-RC_11636-B.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CONN HEADER .100" DUAL STR 40POS</field>
+        <field name="Fabricante">Sullins Connector Solutions</field>
+        <field name="Nro de parte">PRPC020DAAN-RC</field>
+        <field name="Digikey">S2011EC-20-ND</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="Conn_Poncho2P_2x_20x2"/>
+      <sheetpath names="/AISLACIÓN/" tstamps="/57BDC3A8/"/>
+      <tstamp>57D819F9</tstamp>
+    </comp>
+    <comp ref="C43">
+      <value>0.1uF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de parte">C0805C104J5RACTU</field>
+        <field name="Digikey">399-1171-1-ND</field>
+        <field name="Footprint">0805 (2012 Metric)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/AISLACIÓN/" tstamps="/57BDC3A8/"/>
+      <tstamp>580B6D2E</tstamp>
+    </comp>
+    <comp ref="C44">
+      <value>10uF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>GRM219R61E106KA12-01.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 10UF 25V X5R 0805</field>
+        <field name="Fabricante">Murata Electronics North America</field>
+        <field name="Nro de parte">GRM219R61E106KA12D</field>
+        <field name="Digikey">490-7207-1-ND</field>
+        <field name="Footprint">0805 (2012 Metric)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/AISLACIÓN/" tstamps="/57BDC3A8/"/>
+      <tstamp>580B6F5F</tstamp>
+    </comp>
+    <comp ref="C45">
+      <value>0.1uF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de parte">C0805C104J5RACTU</field>
+        <field name="Digikey">399-1171-1-ND</field>
+        <field name="Footprint">0805 (2012 Metric)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/AISLACIÓN/" tstamps="/57BDC3A8/"/>
+      <tstamp>580B8B73</tstamp>
+    </comp>
+    <comp ref="SC_2">
+      <value>Slot_2</value>
+      <footprint>footprints:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop</footprint>
+      <datasheet>NONE</datasheet>
+      <libsource lib="PonchoBiopotenciales" part="Fiducial"/>
+      <sheetpath names="/AISLACIÓN/" tstamps="/57BDC3A8/"/>
+      <tstamp>5813B95D</tstamp>
+    </comp>
+    <comp ref="SC_1">
+      <value>Slot_1</value>
+      <footprint>footprints:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop</footprint>
+      <datasheet>NONE</datasheet>
+      <libsource lib="PonchoBiopotenciales" part="Fiducial"/>
+      <sheetpath names="/AISLACIÓN/" tstamps="/57BDC3A8/"/>
+      <tstamp>58163B71</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>1k</value>
+      <footprint>footprints:R_0805</footprint>
+      <datasheet>PYu-RC_Group_51_RoHS_L_8.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES SMD 1K OHM 5% 1/8W 0805</field>
+        <field name="Fabricante">Yageo</field>
+        <field name="Nro de parte">RC0805JR-071KL</field>
+        <field name="Digikey">311-1.0KARCT-ND</field>
+        <field name="Footprint">0805 (2012 Metric)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="R_Small"/>
+      <sheetpath names="/AISLACIÓN/" tstamps="/57BDC3A8/"/>
+      <tstamp>59A1552D</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>1k</value>
+      <footprint>footprints:R_0805</footprint>
+      <datasheet>PYu-RC_Group_51_RoHS_L_8.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES SMD 1K OHM 5% 1/8W 0805</field>
+        <field name="Fabricante">Yageo</field>
+        <field name="Nro de parte">RC0805JR-071KL</field>
+        <field name="Digikey">311-1.0KARCT-ND</field>
+        <field name="Footprint">0805 (2012 Metric)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="R_Small"/>
+      <sheetpath names="/AISLACIÓN/" tstamps="/57BDC3A8/"/>
+      <tstamp>59A15602</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>1k</value>
+      <footprint>footprints:R_0805</footprint>
+      <datasheet>PYu-RC_Group_51_RoHS_L_8.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES SMD 1K OHM 5% 1/8W 0805</field>
+        <field name="Fabricante">Yageo</field>
+        <field name="Nro de parte">RC0805JR-071KL</field>
+        <field name="Digikey">311-1.0KARCT-ND</field>
+        <field name="Footprint">0805 (2012 Metric)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="R_Small"/>
+      <sheetpath names="/AISLACIÓN/" tstamps="/57BDC3A8/"/>
+      <tstamp>59A156B8</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>1.8k</value>
+      <footprint>footprints:R_0805</footprint>
+      <datasheet>PYu-RC_Group_51_RoHS_L_8.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES SMD 1.8K OHM 5% 1/8W 0805</field>
+        <field name="Fabricante">Yageo</field>
+        <field name="Nro de parte">RC0805JR-071K8L</field>
+        <field name="Digikey">311-1.8KARCT-ND</field>
+        <field name="Footprint">0805 (2012 Metric)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="R_Small"/>
+      <sheetpath names="/AISLACIÓN/" tstamps="/57BDC3A8/"/>
+      <tstamp>59A15736</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>1.8k</value>
+      <footprint>footprints:R_0805</footprint>
+      <datasheet>PYu-RC_Group_51_RoHS_L_8.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES SMD 1.8K OHM 5% 1/8W 0805</field>
+        <field name="Fabricante">Yageo</field>
+        <field name="Nro de parte">RC0805JR-071K8L</field>
+        <field name="Digikey">311-1.8KARCT-ND</field>
+        <field name="Footprint">0805 (2012 Metric)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="R_Small"/>
+      <sheetpath names="/AISLACIÓN/" tstamps="/57BDC3A8/"/>
+      <tstamp>59A157D3</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>1.8k</value>
+      <footprint>footprints:R_0805</footprint>
+      <datasheet>PYu-RC_Group_51_RoHS_L_8.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES SMD 1.8K OHM 5% 1/8W 0805</field>
+        <field name="Fabricante">Yageo</field>
+        <field name="Nro de parte">RC0805JR-071K8L</field>
+        <field name="Digikey">311-1.8KARCT-ND</field>
+        <field name="Footprint">0805 (2012 Metric)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="R_Small"/>
+      <sheetpath names="/AISLACIÓN/" tstamps="/57BDC3A8/"/>
+      <tstamp>59A19CBF</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>1k</value>
+      <footprint>footprints:R_0805</footprint>
+      <datasheet>PYu-RC_Group_51_RoHS_L_8.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES SMD 1K OHM 5% 1/8W 0805</field>
+        <field name="Fabricante">Yageo</field>
+        <field name="Nro de parte">RC0805JR-071KL</field>
+        <field name="Digikey">311-1.0KARCT-ND</field>
+        <field name="Footprint">0805 (2012 Metric)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="R_Small"/>
+      <sheetpath names="/AISLACIÓN/" tstamps="/57BDC3A8/"/>
+      <tstamp>59A19D84</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>1.8k</value>
+      <footprint>footprints:R_0805</footprint>
+      <datasheet>PYu-RC_Group_51_RoHS_L_8.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES SMD 1.8K OHM 5% 1/8W 0805</field>
+        <field name="Fabricante">Yageo</field>
+        <field name="Nro de parte">RC0805JR-071K8L</field>
+        <field name="Digikey">311-1.8KARCT-ND</field>
+        <field name="Footprint">0805 (2012 Metric)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="R_Small"/>
+      <sheetpath names="/AISLACIÓN/" tstamps="/57BDC3A8/"/>
+      <tstamp>59A22A4A</tstamp>
+    </comp>
+    <comp ref="U13">
+      <value>NCP1117ST33T3G</value>
+      <footprint>footprints:SOT-223</footprint>
+      <datasheet>NCP1117-D.PDF</datasheet>
+      <fields>
+        <field name="Descripción">IC REG LINEAR 3.3V 1A SOT223</field>
+        <field name="Fabricante">ON Semiconductor</field>
+        <field name="Nro de parte">NCP1117ST33T3G</field>
+        <field name="Digikey">NCP1117ST33T3GOSCT-ND</field>
+        <field name="Footprint">SOT-223	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="NCP1117ST33T3G"/>
+      <sheetpath names="/AISLACIÓN/" tstamps="/57BDC3A8/"/>
+      <tstamp>59A26CFF</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>HZ0805E601R-10</value>
+      <footprint>footprints:R_0805</footprint>
+      <datasheet>Part Number Guide.pdf</datasheet>
+      <fields>
+        <field name="Descripción">FERRITE BEAD 600 OHM 0805 1LN</field>
+        <field name="Fabricante">Laird-Signal Integrity Products</field>
+        <field name="Nro de parte">HZ0805E601R-10</field>
+        <field name="Digikey">240-2399-1-ND</field>
+        <field name="Footprint">0805 (2012 Metric)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="HZ0805E601R-10"/>
+      <sheetpath names="/AISLACIÓN/" tstamps="/57BDC3A8/"/>
+      <tstamp>59A4897C</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>HZ0805E601R-10</value>
+      <footprint>footprints:R_0805</footprint>
+      <datasheet>Part Number Guide.pdf</datasheet>
+      <fields>
+        <field name="Descripción">FERRITE BEAD 600 OHM 0805 1LN</field>
+        <field name="Fabricante">Laird-Signal Integrity Products</field>
+        <field name="Nro de parte">HZ0805E601R-10</field>
+        <field name="Digikey">240-2399-1-ND</field>
+        <field name="Footprint">0805 (2012 Metric)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="HZ0805E601R-10"/>
+      <sheetpath names="/AISLACIÓN/" tstamps="/57BDC3A8/"/>
+      <tstamp>59A48A72</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>10uF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>GRM219R61E106KA12-01.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 10UF 25V X5R 0805</field>
+        <field name="Fabricante">Murata Electronics North America</field>
+        <field name="Nro de parte">GRM219R61E106KA12D</field>
+        <field name="Digikey">490-7207-1-ND</field>
+        <field name="Footprint">0805 (2012 Metric)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/AISLACIÓN/" tstamps="/57BDC3A8/"/>
+      <tstamp>59A29E91</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>10uF</value>
+      <footprint>footprints:C_0805</footprint>
+      <datasheet>GRM219R61E106KA12-01.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 10UF 25V X5R 0805</field>
+        <field name="Fabricante">Murata Electronics North America</field>
+        <field name="Nro de parte">GRM219R61E106KA12D</field>
+        <field name="Digikey">490-7207-1-ND</field>
+        <field name="Footprint">0805 (2012 Metric)	</field>
+      </fields>
+      <libsource lib="PonchoBiopotenciales" part="C"/>
+      <sheetpath names="/AISLACIÓN/" tstamps="/57BDC3A8/"/>
+      <tstamp>59A29D8E</tstamp>
+    </comp>
+    <comp ref="FD8">
+      <value>Fiducial</value>
+      <footprint>footprints:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop</footprint>
+      <datasheet>NONE</datasheet>
+      <libsource lib="PonchoBiopotenciales" part="Fiducial"/>
+      <sheetpath names="/AISLACIÓN/" tstamps="/57BDC3A8/"/>
+      <tstamp>580D9279</tstamp>
+    </comp>
+    <comp ref="FD7">
+      <value>Fiducial</value>
+      <footprint>footprints:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop</footprint>
+      <datasheet>NONE</datasheet>
+      <libsource lib="PonchoBiopotenciales" part="Fiducial"/>
+      <sheetpath names="/AISLACIÓN/" tstamps="/57BDC3A8/"/>
+      <tstamp>580D9272</tstamp>
+    </comp>
+    <comp ref="FD6">
+      <value>Fiducial</value>
+      <footprint>footprints:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop</footprint>
+      <datasheet>NONE</datasheet>
+      <libsource lib="PonchoBiopotenciales" part="Fiducial"/>
+      <sheetpath names="/AISLACIÓN/" tstamps="/57BDC3A8/"/>
+      <tstamp>580D926B</tstamp>
+    </comp>
+    <comp ref="FD5">
+      <value>Fiducial</value>
+      <footprint>footprints:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop</footprint>
+      <datasheet>NONE</datasheet>
+      <libsource lib="PonchoBiopotenciales" part="Fiducial"/>
+      <sheetpath names="/AISLACIÓN/" tstamps="/57BDC3A8/"/>
+      <tstamp>580D9264</tstamp>
+    </comp>
+    <comp ref="FD9">
+      <value>Fiducial</value>
+      <footprint>footprints:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop</footprint>
+      <datasheet>NONE</datasheet>
+      <libsource lib="PonchoBiopotenciales" part="Fiducial"/>
+      <sheetpath names="/AISLACIÓN/" tstamps="/57BDC3A8/"/>
+      <tstamp>580D7BB1</tstamp>
+    </comp>
+    <comp ref="MH1">
+      <value>PCB_HOLE</value>
+      <footprint>footprints:1pin</footprint>
+      <datasheet>NONE</datasheet>
+      <libsource lib="PonchoBiopotenciales" part="PCB_HOLE"/>
+      <sheetpath names="/AISLACIÓN/" tstamps="/57BDC3A8/"/>
+      <tstamp>580D724E</tstamp>
+    </comp>
+    <comp ref="MH4">
+      <value>PCB_HOLE</value>
+      <footprint>footprints:1pin</footprint>
+      <datasheet>NONE</datasheet>
+      <libsource lib="PonchoBiopotenciales" part="PCB_HOLE"/>
+      <sheetpath names="/AISLACIÓN/" tstamps="/57BDC3A8/"/>
+      <tstamp>580D71F6</tstamp>
+    </comp>
+    <comp ref="MH3">
+      <value>PCB_HOLE</value>
+      <footprint>footprints:1pin</footprint>
+      <datasheet>NONE</datasheet>
+      <libsource lib="PonchoBiopotenciales" part="PCB_HOLE"/>
+      <sheetpath names="/AISLACIÓN/" tstamps="/57BDC3A8/"/>
+      <tstamp>580D719D</tstamp>
+    </comp>
+    <comp ref="MH2">
+      <value>PCB_HOLE</value>
+      <footprint>footprints:1pin</footprint>
+      <datasheet>NONE</datasheet>
+      <libsource lib="PonchoBiopotenciales" part="PCB_HOLE"/>
+      <sheetpath names="/AISLACIÓN/" tstamps="/57BDC3A8/"/>
+      <tstamp>580D7138</tstamp>
+    </comp>
+    <comp ref="FD4">
+      <value>Fiducial</value>
+      <footprint>footprints:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop</footprint>
+      <datasheet>NONE</datasheet>
+      <libsource lib="PonchoBiopotenciales" part="Fiducial"/>
+      <sheetpath names="/AISLACIÓN/" tstamps="/57BDC3A8/"/>
+      <tstamp>580D583B</tstamp>
+    </comp>
+    <comp ref="FD3">
+      <value>Fiducial</value>
+      <footprint>footprints:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop</footprint>
+      <datasheet>NONE</datasheet>
+      <libsource lib="PonchoBiopotenciales" part="Fiducial"/>
+      <sheetpath names="/AISLACIÓN/" tstamps="/57BDC3A8/"/>
+      <tstamp>580D57EB</tstamp>
+    </comp>
+    <comp ref="FD2">
+      <value>Fiducial</value>
+      <footprint>footprints:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop</footprint>
+      <datasheet>NONE</datasheet>
+      <libsource lib="PonchoBiopotenciales" part="Fiducial"/>
+      <sheetpath names="/AISLACIÓN/" tstamps="/57BDC3A8/"/>
+      <tstamp>580D57A0</tstamp>
+    </comp>
+    <comp ref="FD1">
+      <value>Fiducial</value>
+      <footprint>footprints:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop</footprint>
+      <datasheet>NONE</datasheet>
+      <libsource lib="PonchoBiopotenciales" part="Fiducial"/>
+      <sheetpath names="/AISLACIÓN/" tstamps="/57BDC3A8/"/>
+      <tstamp>580D56F9</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="PonchoBiopotenciales" part="ADS1299">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADS1299</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN8N" type="input"/>
+        <pin num="2" name="IN8P" type="input"/>
+        <pin num="3" name="IN7N" type="input"/>
+        <pin num="4" name="IN7P" type="input"/>
+        <pin num="5" name="IN6N" type="input"/>
+        <pin num="6" name="IN6P" type="input"/>
+        <pin num="7" name="IN5N" type="input"/>
+        <pin num="8" name="IN5P" type="input"/>
+        <pin num="9" name="IN4N" type="input"/>
+        <pin num="10" name="IN4P" type="input"/>
+        <pin num="11" name="IN3N" type="input"/>
+        <pin num="12" name="IN3P" type="input"/>
+        <pin num="13" name="IN2N" type="input"/>
+        <pin num="14" name="IN2P" type="input"/>
+        <pin num="15" name="IN1N" type="input"/>
+        <pin num="16" name="IN1P" type="input"/>
+        <pin num="17" name="SRB1" type="BiDi"/>
+        <pin num="18" name="SRB2" type="BiDi"/>
+        <pin num="19" name="AVDD" type="power_in"/>
+        <pin num="20" name="AVSS" type="power_in"/>
+        <pin num="21" name="AVDD" type="power_in"/>
+        <pin num="22" name="AVDD" type="power_in"/>
+        <pin num="23" name="AVSS" type="power_in"/>
+        <pin num="24" name="VREFP" type="BiDi"/>
+        <pin num="25" name="VREFN" type="input"/>
+        <pin num="26" name="VCAP4" type="output"/>
+        <pin num="27" name="NC" type="passive"/>
+        <pin num="28" name="VCAP1" type="passive"/>
+        <pin num="29" name="NC" type="passive"/>
+        <pin num="30" name="VCAP2" type="passive"/>
+        <pin num="31" name="RESV1" type="input"/>
+        <pin num="32" name="AVSS" type="power_in"/>
+        <pin num="33" name="DGND" type="power_in"/>
+        <pin num="34" name="DIN" type="input"/>
+        <pin num="35" name="*PWDN" type="input"/>
+        <pin num="36" name="*RESET" type="input"/>
+        <pin num="37" name="CLK" type="BiDi"/>
+        <pin num="38" name="START" type="input"/>
+        <pin num="39" name="*CS" type="input"/>
+        <pin num="40" name="SCLK" type="input"/>
+        <pin num="41" name="DAISY_IN" type="input"/>
+        <pin num="42" name="GPIO1" type="BiDi"/>
+        <pin num="43" name="DOUT" type="output"/>
+        <pin num="44" name="GPIO2" type="BiDi"/>
+        <pin num="45" name="GPIO3" type="BiDi"/>
+        <pin num="46" name="GPIO4" type="BiDi"/>
+        <pin num="47" name="*DRDY" type="output"/>
+        <pin num="48" name="DVDD" type="power_in"/>
+        <pin num="49" name="DGND" type="power_in"/>
+        <pin num="50" name="DVDD" type="power_in"/>
+        <pin num="51" name="DGND" type="power_in"/>
+        <pin num="52" name="CLKSEL" type="input"/>
+        <pin num="53" name="AVSS1" type="power_in"/>
+        <pin num="54" name="AVDD1" type="power_in"/>
+        <pin num="55" name="VCAP3" type="passive"/>
+        <pin num="56" name="AVDD" type="power_in"/>
+        <pin num="57" name="AVSS" type="power_in"/>
+        <pin num="58" name="AVSS" type="power_in"/>
+        <pin num="59" name="AVDD" type="power_in"/>
+        <pin num="60" name="BIASREF" type="input"/>
+        <pin num="61" name="BIASINV" type="BiDi"/>
+        <pin num="62" name="BIASIN" type="input"/>
+        <pin num="63" name="BIASOUT" type="output"/>
+        <pin num="64" name="RESERVED" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="PonchoBiopotenciales" part="ADuM2401">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADuM2401</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD1" type="power_in"/>
+        <pin num="2" name="GND1" type="power_in"/>
+        <pin num="3" name="VIA" type="input"/>
+        <pin num="4" name="VIB" type="input"/>
+        <pin num="5" name="VIC" type="input"/>
+        <pin num="6" name="VOD" type="output"/>
+        <pin num="7" name="VE1" type="input"/>
+        <pin num="8" name="GND1" type="power_in"/>
+        <pin num="9" name="GND2" type="power_in"/>
+        <pin num="10" name="VE2" type="input"/>
+        <pin num="11" name="VID" type="input"/>
+        <pin num="12" name="VOC" type="output"/>
+        <pin num="13" name="VOB" type="output"/>
+        <pin num="14" name="VOA" type="output"/>
+        <pin num="15" name="GND2" type="power_in"/>
+        <pin num="16" name="VDD2" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="PonchoBiopotenciales" part="ADuM6401-RESCUE-PonchoERG">
+      <footprints>
+        <fp>SO-16-W*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADuM6401-RESCUE-PonchoERG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD1" type="power_in"/>
+        <pin num="2" name="GND1" type="power_in"/>
+        <pin num="3" name="VIA" type="input"/>
+        <pin num="4" name="VIB" type="input"/>
+        <pin num="5" name="VIC" type="input"/>
+        <pin num="6" name="VOD" type="output"/>
+        <pin num="7" name="VDDL" type="power_in"/>
+        <pin num="8" name="GND1" type="power_in"/>
+        <pin num="9" name="GND_ISO" type="power_out"/>
+        <pin num="10" name="VSEL" type="passive"/>
+        <pin num="11" name="VID" type="input"/>
+        <pin num="12" name="VOC" type="output"/>
+        <pin num="13" name="VOB" type="output"/>
+        <pin num="14" name="VOA" type="output"/>
+        <pin num="15" name="GND_ISO" type="power_in"/>
+        <pin num="16" name="VISO" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="PonchoBiopotenciales" part="C">
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PonchoBiopotenciales" part="CONN_01X05">
+      <footprints>
+        <fp>Pin_Header_Straight_1X05</fp>
+        <fp>Pin_Header_Angled_1X05</fp>
+        <fp>Socket_Strip_Straight_1X05</fp>
+        <fp>Socket_Strip_Angled_1X05</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PonchoBiopotenciales" part="CONN_01X20">
+      <footprints>
+        <fp>Pin_Header_Straight_1X20</fp>
+        <fp>Pin_Header_Angled_1X20</fp>
+        <fp>Socket_Strip_Straight_1X20</fp>
+        <fp>Socket_Strip_Angled_1X20</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X20</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+        <pin num="17" name="P17" type="passive"/>
+        <pin num="18" name="P18" type="passive"/>
+        <pin num="19" name="P19" type="passive"/>
+        <pin num="20" name="P20" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PonchoBiopotenciales" part="Conn_Poncho2P_2x_20x2">
+      <fields>
+        <field name="Reference">XA</field>
+        <field name="Value">Conn_Poncho2P_2x_20x2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+3.3V" type="power_out"/>
+        <pin num="2" name="+5V" type="power_out"/>
+        <pin num="3" name="RESET" type="input"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="ISP" type="passive"/>
+        <pin num="6" name="WAKEUP" type="input"/>
+        <pin num="7" name="GNDA" type="passive"/>
+        <pin num="8" name="GNDA" type="passive"/>
+        <pin num="9" name="ADC3" type="passive"/>
+        <pin num="10" name="GNDA" type="passive"/>
+        <pin num="11" name="ADC2" type="passive"/>
+        <pin num="12" name="GNDA" type="passive"/>
+        <pin num="13" name="ADC1" type="passive"/>
+        <pin num="14" name="GNDA" type="passive"/>
+        <pin num="15" name="DAC" type="passive"/>
+        <pin num="16" name="GNDA" type="passive"/>
+        <pin num="17" name="VDDA" type="power_out"/>
+        <pin num="18" name="GNDA" type="passive"/>
+        <pin num="19" name="i2cSDA" type="passive"/>
+        <pin num="20" name="GND" type="passive"/>
+        <pin num="21" name="i2cSCL" type="passive"/>
+        <pin num="22" name="GND" type="passive"/>
+        <pin num="23" name="rs232RXD" type="passive"/>
+        <pin num="24" name="GND" type="passive"/>
+        <pin num="25" name="rs232TXD" type="passive"/>
+        <pin num="26" name="GND" type="passive"/>
+        <pin num="27" name="canRD" type="passive"/>
+        <pin num="28" name="GND" type="passive"/>
+        <pin num="29" name="canTD" type="passive"/>
+        <pin num="30" name="GND" type="passive"/>
+        <pin num="31" name="tecCOL1" type="passive"/>
+        <pin num="32" name="GND" type="passive"/>
+        <pin num="33" name="tecF0" type="passive"/>
+        <pin num="34" name="tecCOL2" type="passive"/>
+        <pin num="35" name="tecF3" type="passive"/>
+        <pin num="36" name="tecF1" type="passive"/>
+        <pin num="37" name="tecF2" type="passive"/>
+        <pin num="38" name="GND" type="passive"/>
+        <pin num="39" name="tecCOL0" type="passive"/>
+        <pin num="40" name="GND" type="passive"/>
+        <pin num="41" name="+3.3V" type="power_out"/>
+        <pin num="42" name="+5V" type="power_out"/>
+        <pin num="43" name="GND" type="power_out"/>
+        <pin num="44" name="ethRXD1" type="passive"/>
+        <pin num="45" name="GND" type="passive"/>
+        <pin num="46" name="ethTXEN" type="passive"/>
+        <pin num="47" name="GND" type="passive"/>
+        <pin num="48" name="ethMDC" type="passive"/>
+        <pin num="49" name="ethRXD0" type="passive"/>
+        <pin num="50" name="ethCRS" type="passive"/>
+        <pin num="51" name="GND" type="passive"/>
+        <pin num="52" name="ethMDIO" type="passive"/>
+        <pin num="53" name="GND" type="passive"/>
+        <pin num="54" name="ethTXD0" type="passive"/>
+        <pin num="55" name="ethRCLCK" type="passive"/>
+        <pin num="56" name="ethTXD1" type="passive"/>
+        <pin num="57" name="GND" type="passive"/>
+        <pin num="58" name="spiMISO" type="passive"/>
+        <pin num="59" name="GND" type="passive"/>
+        <pin num="60" name="spiSCK" type="passive"/>
+        <pin num="61" name="spiMOSI" type="passive"/>
+        <pin num="62" name="lcd4" type="passive"/>
+        <pin num="63" name="lcdEN" type="passive"/>
+        <pin num="64" name="lcdRS" type="passive"/>
+        <pin num="65" name="GND" type="passive"/>
+        <pin num="66" name="lcd3" type="passive"/>
+        <pin num="67" name="GND" type="passive"/>
+        <pin num="68" name="lcd2" type="passive"/>
+        <pin num="69" name="GPIO0" type="passive"/>
+        <pin num="70" name="lcd1" type="passive"/>
+        <pin num="71" name="GPIO2" type="passive"/>
+        <pin num="72" name="GPIO1" type="passive"/>
+        <pin num="73" name="GPIO4" type="passive"/>
+        <pin num="74" name="GPIO3" type="passive"/>
+        <pin num="75" name="GPIO6" type="passive"/>
+        <pin num="76" name="GPIO5" type="passive"/>
+        <pin num="77" name="GND" type="passive"/>
+        <pin num="78" name="GPIO7" type="passive"/>
+        <pin num="79" name="GND" type="passive"/>
+        <pin num="80" name="GPIO8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PonchoBiopotenciales" part="Fiducial">
+      <fields>
+        <field name="Reference">FD</field>
+        <field name="Value">Fiducial</field>
+      </fields>
+    </libpart>
+    <libpart lib="PonchoBiopotenciales" part="HZ0805E601R-10">
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">HZ0805E601R-10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PonchoBiopotenciales" part="JUMPER">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">JUMPER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PonchoBiopotenciales" part="JUMPER3">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">JUMPER3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PonchoBiopotenciales" part="J_CFG">
+      <fields>
+        <field name="Reference">Jumper_Config</field>
+        <field name="Value">J_CFG</field>
+      </fields>
+    </libpart>
+    <libpart lib="PonchoBiopotenciales" part="J_STD">
+      <fields>
+        <field name="Reference">Jumper_STD</field>
+        <field name="Value">J_STD</field>
+      </fields>
+    </libpart>
+    <libpart lib="PonchoBiopotenciales" part="Logo_Poncho">
+      <fields>
+        <field name="Reference">#G</field>
+        <field name="Value">Logo_Poncho</field>
+      </fields>
+    </libpart>
+    <libpart lib="PonchoBiopotenciales" part="NCP1117ST50T3G">
+      <aliases>
+        <alias>NCP1117ST12T3G</alias>
+        <alias>NCP1117ST15T3G</alias>
+        <alias>NCP1117ST18T3G</alias>
+        <alias>NCP1117ST20T3G</alias>
+        <alias>NCP1117ST25T3G</alias>
+        <alias>NCP1117ST285T3G</alias>
+        <alias>NCP1117ST33T3G</alias>
+      </aliases>
+      <footprints>
+        <fp>SOT223</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NCP1117ST50T3G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+        <pin num="4" name="Tab" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="PonchoBiopotenciales" part="OPA2376">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">OPA2376</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="OUT" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="PonchoBiopotenciales" part="OSHWA">
+      <fields>
+        <field name="Reference">#G</field>
+        <field name="Value">OSHWA</field>
+      </fields>
+    </libpart>
+    <libpart lib="PonchoBiopotenciales" part="PCB_HOLE">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">PCB_HOLE</field>
+        <field name="Datasheet">PCB HOLE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PonchoBiopotenciales" part="R_Small">
+      <footprints>
+        <fp>Resistor_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_04.pdf</field>
+        <field name="Código Digikey">311-2.2KARCT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PonchoBiopotenciales" part="TPD2E001">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPD2E001</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="NC" type="NotConnected"/>
+        <pin num="3" name="IO1" type="BiDi"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="IO2" type="BiDi"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="PonchoBiopotenciales">
+      <uri>kicadlibs\PonchoBiopotenciales.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/ADS1299/SCLK">
+      <node ref="R29" pin="1"/>
+      <node ref="U10" pin="40"/>
+      <node ref="R32" pin="2"/>
+    </net>
+    <net code="2" name="DGND">
+      <node ref="U10" pin="38"/>
+      <node ref="U10" pin="49"/>
+      <node ref="U12" pin="9"/>
+      <node ref="U12" pin="14"/>
+      <node ref="U12" pin="15"/>
+      <node ref="U10" pin="51"/>
+      <node ref="C26" pin="2"/>
+      <node ref="U10" pin="41"/>
+      <node ref="U10" pin="31"/>
+      <node ref="L2" pin="1"/>
+      <node ref="C34" pin="2"/>
+      <node ref="U10" pin="33"/>
+      <node ref="C27" pin="2"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="3" name="/ADS1299/DRDY/">
+      <node ref="U12" pin="11"/>
+      <node ref="U10" pin="47"/>
+    </net>
+    <net code="4" name="/ADS1299/MISO">
+      <node ref="U10" pin="43"/>
+      <node ref="U11" pin="11"/>
+    </net>
+    <net code="5" name="/ADS1299/MOSI">
+      <node ref="R33" pin="2"/>
+      <node ref="R30" pin="1"/>
+      <node ref="U10" pin="34"/>
+    </net>
+    <net code="6" name="/ADS1299/CS/">
+      <node ref="U10" pin="39"/>
+      <node ref="R31" pin="2"/>
+      <node ref="R28" pin="1"/>
+    </net>
+    <net code="7" name="/ADS1299/PWDN/">
+      <node ref="U10" pin="35"/>
+      <node ref="U12" pin="12"/>
+    </net>
+    <net code="8" name="/ADS1299/RESET">
+      <node ref="U10" pin="36"/>
+      <node ref="U12" pin="13"/>
+    </net>
+    <net code="9" name="/ADS1299/IN8-">
+      <node ref="R16" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="U10" pin="1"/>
+    </net>
+    <net code="10" name="/ADS1299/IN7+">
+      <node ref="U10" pin="4"/>
+      <node ref="R13" pin="2"/>
+      <node ref="C13" pin="1"/>
+    </net>
+    <net code="11" name="/ADS1299/IN7-">
+      <node ref="C14" pin="1"/>
+      <node ref="U10" pin="3"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="12" name="/ADS1299/IN8+">
+      <node ref="R15" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="U10" pin="2"/>
+    </net>
+    <net code="13" name="/ADS1299/BIAS_DRV">
+      <node ref="C35" pin="1"/>
+      <node ref="R20" pin="1"/>
+      <node ref="R19" pin="1"/>
+      <node ref="JP2" pin="2"/>
+      <node ref="JP1" pin="2"/>
+      <node ref="C18" pin="1"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="14" name="/ADS1299/IN_REF">
+      <node ref="R17" pin="2"/>
+      <node ref="JP4" pin="3"/>
+      <node ref="C17" pin="1"/>
+      <node ref="JP3" pin="3"/>
+    </net>
+    <net code="15" name="/ADS1299/BIAS_SHD">
+      <node ref="U14" pin="2"/>
+      <node ref="R25" pin="2"/>
+      <node ref="U14" pin="1"/>
+      <node ref="C41" pin="1"/>
+    </net>
+    <net code="16" name="/ADS1299/BIAS_ELEC">
+      <node ref="JP1" pin="1"/>
+      <node ref="C42" pin="1"/>
+      <node ref="R26" pin="2"/>
+    </net>
+    <net code="17" name="/ADS1299/IN2-">
+      <node ref="U10" pin="13"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="18" name="/ADS1299/IN4-">
+      <node ref="U10" pin="9"/>
+      <node ref="C8" pin="1"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="19" name="/ADS1299/IN1+">
+      <node ref="C1" pin="1"/>
+      <node ref="U10" pin="16"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="20" name="/ADS1299/IN2+">
+      <node ref="U10" pin="14"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="21" name="/ADS1299/IN3+">
+      <node ref="R5" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U10" pin="12"/>
+    </net>
+    <net code="22" name="/ADS1299/IN3-">
+      <node ref="C6" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="U10" pin="11"/>
+    </net>
+    <net code="23" name="/ADS1299/IN4+">
+      <node ref="R7" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="U10" pin="10"/>
+    </net>
+    <net code="24" name="/ADS1299/IN5-">
+      <node ref="C10" pin="1"/>
+      <node ref="U10" pin="7"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="25" name="/ADS1299/IN6+">
+      <node ref="C11" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="U10" pin="6"/>
+    </net>
+    <net code="26" name="/ADS1299/IN6-">
+      <node ref="C12" pin="1"/>
+      <node ref="U10" pin="5"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="27" name="/ADS1299/IN1-">
+      <node ref="U10" pin="15"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="28" name="/ADS1299/IN5+">
+      <node ref="R9" pin="2"/>
+      <node ref="U10" pin="8"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="29" name="Net-(J1-Pad14)">
+      <node ref="J1" pin="14"/>
+      <node ref="R14" pin="2"/>
+      <node ref="U7" pin="5"/>
+    </net>
+    <net code="30" name="Net-(J1-Pad15)">
+      <node ref="U8" pin="3"/>
+      <node ref="R15" pin="2"/>
+      <node ref="J1" pin="15"/>
+    </net>
+    <net code="31" name="Net-(J1-Pad16)">
+      <node ref="U8" pin="5"/>
+      <node ref="R16" pin="2"/>
+      <node ref="J1" pin="16"/>
+    </net>
+    <net code="32" name="Net-(J1-Pad13)">
+      <node ref="R13" pin="1"/>
+      <node ref="U7" pin="3"/>
+      <node ref="J1" pin="13"/>
+    </net>
+    <net code="33" name="Net-(J1-Pad12)">
+      <node ref="U6" pin="5"/>
+      <node ref="J1" pin="12"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="34" name="Net-(J1-Pad11)">
+      <node ref="J1" pin="11"/>
+      <node ref="R11" pin="2"/>
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="35" name="Net-(J1-Pad10)">
+      <node ref="U5" pin="5"/>
+      <node ref="R10" pin="2"/>
+      <node ref="J1" pin="10"/>
+    </net>
+    <net code="36" name="Net-(J1-Pad9)">
+      <node ref="J1" pin="9"/>
+      <node ref="U5" pin="3"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="37" name="Net-(J1-Pad8)">
+      <node ref="R8" pin="2"/>
+      <node ref="J1" pin="8"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="38" name="Net-(J1-Pad7)">
+      <node ref="R7" pin="2"/>
+      <node ref="U4" pin="3"/>
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="39" name="Net-(J1-Pad6)">
+      <node ref="U3" pin="5"/>
+      <node ref="J1" pin="6"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="40" name="Net-(J1-Pad5)">
+      <node ref="J1" pin="5"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="41" name="Net-(J1-Pad4)">
+      <node ref="U2" pin="5"/>
+      <node ref="R4" pin="2"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="42" name="Net-(J1-Pad3)">
+      <node ref="R3" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="43" name="Net-(J1-Pad2)">
+      <node ref="U1" pin="5"/>
+      <node ref="R2" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="44" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="45" name="Net-(J1-Pad19)">
+      <node ref="R26" pin="1"/>
+      <node ref="U15" pin="3"/>
+      <node ref="J1" pin="19"/>
+    </net>
+    <net code="46" name="Net-(J1-Pad18)">
+      <node ref="U9" pin="5"/>
+      <node ref="R18" pin="2"/>
+      <node ref="J1" pin="18"/>
+    </net>
+    <net code="47" name="Net-(J1-Pad17)">
+      <node ref="R17" pin="1"/>
+      <node ref="J1" pin="17"/>
+      <node ref="U9" pin="3"/>
+    </net>
+    <net code="48" name="Net-(J1-Pad20)">
+      <node ref="J1" pin="20"/>
+      <node ref="R25" pin="1"/>
+      <node ref="U15" pin="5"/>
+    </net>
+    <net code="49" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="50" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="51" name="Net-(U8-Pad2)">
+      <node ref="U8" pin="2"/>
+    </net>
+    <net code="52" name="Net-(U7-Pad2)">
+      <node ref="U7" pin="2"/>
+    </net>
+    <net code="53" name="Net-(U6-Pad2)">
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="54" name="Net-(U5-Pad2)">
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="55" name="Net-(U4-Pad2)">
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="56" name="Net-(U3-Pad2)">
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="57" name="GNDA">
+      <node ref="C20" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C32" pin="2"/>
+      <node ref="U10" pin="32"/>
+      <node ref="U10" pin="57"/>
+      <node ref="C25" pin="2"/>
+      <node ref="U11" pin="9"/>
+      <node ref="U10" pin="25"/>
+      <node ref="C36" pin="2"/>
+      <node ref="U10" pin="53"/>
+      <node ref="C40" pin="1"/>
+      <node ref="U10" pin="23"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C37" pin="2"/>
+      <node ref="U10" pin="60"/>
+      <node ref="U10" pin="58"/>
+      <node ref="C31" pin="2"/>
+      <node ref="U10" pin="20"/>
+      <node ref="C29" pin="2"/>
+      <node ref="C38" pin="2"/>
+      <node ref="C39" pin="2"/>
+      <node ref="U2" pin="4"/>
+      <node ref="L2" pin="2"/>
+      <node ref="U4" pin="4"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U6" pin="4"/>
+      <node ref="C33" pin="2"/>
+      <node ref="U7" pin="4"/>
+      <node ref="U5" pin="4"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="C12" pin="2"/>
+      <node ref="R31" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="MH2" pin="1"/>
+      <node ref="U11" pin="15"/>
+      <node ref="MH1" pin="1"/>
+      <node ref="R32" pin="1"/>
+      <node ref="U13" pin="1"/>
+      <node ref="R33" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U9" pin="4"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U15" pin="4"/>
+      <node ref="C41" pin="2"/>
+      <node ref="U8" pin="4"/>
+      <node ref="C42" pin="2"/>
+    </net>
+    <net code="58" name="Net-(U15-Pad2)">
+      <node ref="U15" pin="2"/>
+    </net>
+    <net code="59" name="Net-(U9-Pad2)">
+      <node ref="U9" pin="2"/>
+    </net>
+    <net code="60" name="Net-(JP1-Pad3)">
+      <node ref="JP1" pin="3"/>
+      <node ref="U10" pin="62"/>
+    </net>
+    <net code="61" name="Net-(R19-Pad2)">
+      <node ref="R19" pin="2"/>
+      <node ref="U10" pin="63"/>
+    </net>
+    <net code="62" name="Net-(JP2-Pad1)">
+      <node ref="JP2" pin="1"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="63" name="Net-(R21-Pad1)">
+      <node ref="U14" pin="3"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="64" name="Net-(C35-Pad2)">
+      <node ref="C35" pin="2"/>
+      <node ref="R20" pin="2"/>
+      <node ref="U10" pin="61"/>
+    </net>
+    <net code="65" name="Net-(JP4-Pad2)">
+      <node ref="JP4" pin="2"/>
+      <node ref="R24" pin="1"/>
+    </net>
+    <net code="66" name="Net-(R24-Pad2)">
+      <node ref="U14" pin="5"/>
+      <node ref="R24" pin="2"/>
+    </net>
+    <net code="67" name="Net-(C37-Pad1)">
+      <node ref="C40" pin="2"/>
+      <node ref="U14" pin="4"/>
+      <node ref="C37" pin="1"/>
+    </net>
+    <net code="68" name="Net-(C24-Pad1)">
+      <node ref="C24" pin="1"/>
+      <node ref="U10" pin="55"/>
+      <node ref="C25" pin="1"/>
+    </net>
+    <net code="69" name="Net-(C23-Pad1)">
+      <node ref="U10" pin="30"/>
+      <node ref="C23" pin="1"/>
+    </net>
+    <net code="70" name="Net-(C19-Pad1)">
+      <node ref="U10" pin="24"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C20" pin="1"/>
+    </net>
+    <net code="71" name="Net-(C38-Pad1)">
+      <node ref="R22" pin="2"/>
+      <node ref="C38" pin="1"/>
+      <node ref="U10" pin="17"/>
+    </net>
+    <net code="72" name="Net-(JP3-Pad2)">
+      <node ref="JP3" pin="2"/>
+      <node ref="R22" pin="1"/>
+    </net>
+    <net code="73" name="Net-(JP4-Pad1)">
+      <node ref="U10" pin="18"/>
+      <node ref="JP4" pin="1"/>
+    </net>
+    <net code="74" name="Net-(R23-Pad1)">
+      <node ref="U14" pin="7"/>
+      <node ref="U14" pin="6"/>
+      <node ref="R23" pin="1"/>
+    </net>
+    <net code="75" name="Net-(JP3-Pad1)">
+      <node ref="R23" pin="2"/>
+      <node ref="JP3" pin="1"/>
+    </net>
+    <net code="76" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4"/>
+      <node ref="U10" pin="44"/>
+    </net>
+    <net code="77" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+      <node ref="U10" pin="45"/>
+    </net>
+    <net code="78" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+      <node ref="U10" pin="46"/>
+    </net>
+    <net code="79" name="Net-(J2-Pad5)">
+      <node ref="U10" pin="42"/>
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="80" name="Net-(U10-Pad29)">
+      <node ref="U10" pin="29"/>
+    </net>
+    <net code="81" name="Net-(C22-Pad1)">
+      <node ref="U10" pin="28"/>
+      <node ref="C22" pin="1"/>
+    </net>
+    <net code="82" name="Net-(U10-Pad64)">
+      <node ref="U10" pin="64"/>
+    </net>
+    <net code="83" name="Net-(U10-Pad27)">
+      <node ref="U10" pin="27"/>
+    </net>
+    <net code="84" name="Net-(C21-Pad1)">
+      <node ref="C21" pin="1"/>
+      <node ref="U10" pin="26"/>
+    </net>
+    <net code="85" name="Net-(U10-Pad37)">
+      <node ref="U10" pin="37"/>
+    </net>
+    <net code="86" name="/AISLACIÓN/_PWDN/">
+      <node ref="U12" pin="5"/>
+      <node ref="XA1" pin="68"/>
+    </net>
+    <net code="87" name="/AISLACIÓN/_DRDY/">
+      <node ref="XA1" pin="66"/>
+      <node ref="U12" pin="6"/>
+    </net>
+    <net code="88" name="/AISLACIÓN/_START">
+      <node ref="XA1" pin="64"/>
+      <node ref="U12" pin="3"/>
+    </net>
+    <net code="89" name="/AISLACIÓN/_RESET">
+      <node ref="XA1" pin="62"/>
+      <node ref="U12" pin="4"/>
+    </net>
+    <net code="90" name="/AISLACIÓN/_CS/">
+      <node ref="XA1" pin="63"/>
+      <node ref="U11" pin="3"/>
+    </net>
+    <net code="91" name="Net-(R34-Pad1)">
+      <node ref="U11" pin="6"/>
+      <node ref="R34" pin="1"/>
+    </net>
+    <net code="92" name="/AISLACIÓN/_SCLK">
+      <node ref="XA1" pin="60"/>
+      <node ref="U11" pin="4"/>
+    </net>
+    <net code="93" name="Net-(R28-Pad2)">
+      <node ref="R28" pin="2"/>
+      <node ref="U11" pin="14"/>
+    </net>
+    <net code="94" name="Net-(R29-Pad2)">
+      <node ref="U11" pin="13"/>
+      <node ref="R29" pin="2"/>
+    </net>
+    <net code="95" name="Net-(R30-Pad2)">
+      <node ref="R30" pin="2"/>
+      <node ref="U11" pin="12"/>
+    </net>
+    <net code="96" name="/AISLACIÓN/_MISO">
+      <node ref="R34" pin="2"/>
+      <node ref="XA1" pin="58"/>
+      <node ref="R35" pin="2"/>
+    </net>
+    <net code="97" name="+3.3V">
+      <node ref="C34" pin="1"/>
+      <node ref="U12" pin="16"/>
+      <node ref="U12" pin="10"/>
+      <node ref="L1" pin="1"/>
+      <node ref="U10" pin="48"/>
+      <node ref="C27" pin="1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="U10" pin="52"/>
+      <node ref="U10" pin="50"/>
+    </net>
+    <net code="98" name="/AISLACIÓN/_MOSI">
+      <node ref="U11" pin="5"/>
+      <node ref="XA1" pin="61"/>
+    </net>
+    <net code="99" name="/AISLACIÓN/+3.3V_NISO">
+      <node ref="C45" pin="2"/>
+      <node ref="U12" pin="7"/>
+      <node ref="U12" pin="1"/>
+      <node ref="XA1" pin="41"/>
+    </net>
+    <net code="100" name="Net-(L1-Pad2)">
+      <node ref="U13" pin="2"/>
+      <node ref="U13" pin="4"/>
+      <node ref="L1" pin="2"/>
+    </net>
+    <net code="101" name="/AISLACIÓN/GND_NISO">
+      <node ref="XA1" pin="51"/>
+      <node ref="XA1" pin="45"/>
+      <node ref="R35" pin="1"/>
+      <node ref="U11" pin="8"/>
+      <node ref="U12" pin="2"/>
+      <node ref="XA1" pin="67"/>
+      <node ref="XA1" pin="43"/>
+      <node ref="XA1" pin="53"/>
+      <node ref="C45" pin="1"/>
+      <node ref="U12" pin="8"/>
+      <node ref="XA1" pin="79"/>
+      <node ref="XA1" pin="59"/>
+      <node ref="XA1" pin="77"/>
+      <node ref="C43" pin="2"/>
+      <node ref="XA1" pin="57"/>
+      <node ref="XA1" pin="47"/>
+      <node ref="C44" pin="2"/>
+      <node ref="XA1" pin="65"/>
+      <node ref="MH4" pin="1"/>
+      <node ref="MH3" pin="1"/>
+      <node ref="U11" pin="2"/>
+    </net>
+    <net code="102" name="+5VA">
+      <node ref="U2" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U8" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U15" pin="1"/>
+      <node ref="U9" pin="1"/>
+      <node ref="U4" pin="1"/>
+      <node ref="U5" pin="1"/>
+      <node ref="U6" pin="1"/>
+      <node ref="U7" pin="1"/>
+      <node ref="C33" pin="1"/>
+      <node ref="U13" pin="3"/>
+      <node ref="U11" pin="16"/>
+      <node ref="C36" pin="1"/>
+      <node ref="C39" pin="1"/>
+      <node ref="U14" pin="8"/>
+      <node ref="C31" pin="1"/>
+      <node ref="U10" pin="19"/>
+      <node ref="C32" pin="1"/>
+      <node ref="C29" pin="1"/>
+      <node ref="C28" pin="1"/>
+      <node ref="U11" pin="10"/>
+      <node ref="U10" pin="22"/>
+      <node ref="U10" pin="59"/>
+      <node ref="U10" pin="54"/>
+      <node ref="U10" pin="56"/>
+      <node ref="U10" pin="21"/>
+    </net>
+    <net code="103" name="/AISLACIÓN/+5V_NISO">
+      <node ref="C44" pin="1"/>
+      <node ref="C43" pin="1"/>
+      <node ref="U11" pin="1"/>
+      <node ref="XA1" pin="42"/>
+      <node ref="U11" pin="7"/>
+    </net>
+    <net code="104" name="Net-(XA1-Pad56)">
+      <node ref="XA1" pin="56"/>
+    </net>
+    <net code="105" name="Net-(XA1-Pad55)">
+      <node ref="XA1" pin="55"/>
+    </net>
+    <net code="106" name="Net-(XA1-Pad69)">
+      <node ref="XA1" pin="69"/>
+    </net>
+    <net code="107" name="Net-(XA1-Pad71)">
+      <node ref="XA1" pin="71"/>
+    </net>
+    <net code="108" name="Net-(XA1-Pad73)">
+      <node ref="XA1" pin="73"/>
+    </net>
+    <net code="109" name="Net-(XA1-Pad75)">
+      <node ref="XA1" pin="75"/>
+    </net>
+    <net code="110" name="Net-(XA1-Pad80)">
+      <node ref="XA1" pin="80"/>
+    </net>
+    <net code="111" name="Net-(XA1-Pad78)">
+      <node ref="XA1" pin="78"/>
+    </net>
+    <net code="112" name="Net-(XA1-Pad76)">
+      <node ref="XA1" pin="76"/>
+    </net>
+    <net code="113" name="Net-(XA1-Pad74)">
+      <node ref="XA1" pin="74"/>
+    </net>
+    <net code="114" name="Net-(XA1-Pad72)">
+      <node ref="XA1" pin="72"/>
+    </net>
+    <net code="115" name="Net-(XA1-Pad70)">
+      <node ref="XA1" pin="70"/>
+    </net>
+    <net code="116" name="Net-(XA1-Pad49)">
+      <node ref="XA1" pin="49"/>
+    </net>
+    <net code="117" name="Net-(XA1-Pad54)">
+      <node ref="XA1" pin="54"/>
+    </net>
+    <net code="118" name="Net-(XA1-Pad52)">
+      <node ref="XA1" pin="52"/>
+    </net>
+    <net code="119" name="Net-(XA1-Pad50)">
+      <node ref="XA1" pin="50"/>
+    </net>
+    <net code="120" name="Net-(XA1-Pad48)">
+      <node ref="XA1" pin="48"/>
+    </net>
+    <net code="121" name="Net-(XA1-Pad46)">
+      <node ref="XA1" pin="46"/>
+    </net>
+    <net code="122" name="Net-(XA1-Pad44)">
+      <node ref="XA1" pin="44"/>
+    </net>
+  </nets>
+</export>
