@@ -497,7 +497,7 @@ F 4 "IC OPAMP GP 5.5MHZ RRO 8SOIC" H 2800 1700 60  0001 C CNN "Descripción"
 F 5 "Texas Instruments" H 2800 1700 60  0001 C CNN "Fabricante"
 F 6 "OPA2376AIDR" H 2800 1700 60  0001 C CNN "Nro de parte"
 F 7 "296-22564-1-ND" H 2800 1700 60  0001 C CNN "Digikey"
-F 8 "8-SOIC (0.154\", 3.90mm Width)" H 2800 1700 60  0001 C CNN "Footprint"
+F 8 "8-SOIC (0.154\" 3.90mm Width)" H 2800 1700 60  0001 C CNN "Footprint"
 	1    2900 1300
 	-1   0    0    -1  
 $EndComp
@@ -529,7 +529,7 @@ F 4 "IC OPAMP GP 5.5MHZ RRO 8SOIC" H 2800 1700 60  0001 C CNN "Descripción"
 F 5 "Texas Instruments" H 2800 1700 60  0001 C CNN "Fabricante"
 F 6 "OPA2376AIDR" H 2800 1700 60  0001 C CNN "Nro de parte"
 F 7 "296-22564-1-ND" H 2800 1700 60  0001 C CNN "Digikey"
-F 8 "8-SOIC (0.154\", 3.90mm Width)" H 2800 1700 60  0001 C CNN "Footprint"
+F 8 "8-SOIC (0.154\" 3.90mm Width)" H 2800 1700 60  0001 C CNN "Footprint"
 	2    1550 2950
 	1    0    0    -1  
 $EndComp

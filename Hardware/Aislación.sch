@@ -75,7 +75,7 @@ F 4 "DGTL ISO 5KV 4CH GEN PURP 16SOIC" H 2800 1700 60  0001 C CNN "Descripción"
 F 5 "Analog Devices Inc" H 2800 1700 60  0001 C CNN "Fabricante"
 F 6 "ADUM6401CRWZ" H 2800 1700 60  0001 C CNN "Nro de parte"
 F 7 "ADUM6401CRWZ-ND" H 2800 1700 60  0001 C CNN "Digikey"
-F 8 "16-SOIC (0.295\", 7.50mm Width)	" H 2800 1700 60  0001 C CNN "Footprint"
+F 8 "16-SOIC (0.295\" 7.50mm Width)	" H 2800 1700 60  0001 C CNN "Footprint"
 	1    5100 1950
 	-1   0    0    -1  
 $EndComp
@@ -91,7 +91,7 @@ F 4 "DGTL ISO 5KV 4CH GEN PURP 16SOIC" H 2800 1700 60  0001 C CNN "Descripción"
 F 5 "Analog Devices Inc." H 2800 1700 60  0001 C CNN "Fabricante"
 F 6 "ADUM2401ARWZ-RL" H 2800 1700 60  0001 C CNN "Nro de parte"
 F 7 "ADUM2401ARWZ-RLCT-ND" H 2800 1700 60  0001 C CNN "Digikey"
-F 8 "16-SOIC (0.295\", 7.50mm Width)" H 2800 1700 60  0001 C CNN "Footprint"
+F 8 "16-SOIC (0.295\" 7.50mm Width)" H 2800 1700 60  0001 C CNN "Footprint"
 	1    5125 3400
 	-1   0    0    -1  
 $EndComp

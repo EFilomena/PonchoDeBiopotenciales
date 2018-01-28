@@ -375,7 +375,7 @@ F 0 "R13" V 3000 5050 50  0000 L CNN
 F 1 "2.2k" V 2900 5400 50  0000 L CNN
 F 2 "" H 2950 5300 60  0001 C CNN
 F 3 "PYu-RC_Group_51_RoHS_L_8.pdf" H 2800 1700 60  0001 C CNN
-F 4 "311-2.2KARCT-ND" V 2950 5300 60  0001 C CNN "Código Digikey"
+F 4 "RES SMD 2.2K OHM 5% 1/8W 0805" V 2950 5300 60  0001 C CNN "Descripción"
 F 5 "Yageo" H 2800 1700 60  0001 C CNN "Fabricante"
 F 6 "RC0805JR-072K2L" H 2800 1700 60  0001 C CNN "Nro de parte"
 F 7 "311-2.2KARCT-ND" H 2800 1700 60  0001 C CNN "Digikey"
@@ -735,7 +735,7 @@ F 0 "J1" H 1300 2800 50  0000 C CNN
 F 1 "20POS SIL VERTICAL PIN HEADER" V 1400 1750 50  0001 C CNN
 F 2 "footprints:Pin_Header_Straight_1x20" H 1300 1750 60  0001 C CNN
 F 3 "M20-999.pdf" H 1300 1750 60  0001 C CNN
-F 4 "20 Positions Header, Cuttable Connector 0.100\" (2.54mm) Through Hole Tin" H 1300 1750 60  0001 C CNN "Descripción"
+F 4 "Cuttable Connector 0.100\" (2.54mm) Through Hole Tin" H 1300 1750 60  0001 C CNN "Descripción"
 F 5 "Harwin Inc." H 1300 1750 60  0001 C CNN "Fabricante"
 F 6 "M20-9992046" H 1300 1750 60  0001 C CNN "Nro de parte"
 F 7 "952-1902-ND" H 1300 1750 60  0001 C CNN "Digikey"

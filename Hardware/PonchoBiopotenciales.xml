@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>D:/Repositorios/PonchoDeBiopotenciales/Hardware/PonchoBiopotenciales.sch</source>
-    <date>27/01/2018 11:55:42</date>
+    <date>28/01/2018 7:24:20</date>
     <tool>Eeschema 4.0.2-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -376,7 +376,7 @@
       <value>2.2k</value>
       <datasheet>PYu-RC_Group_51_RoHS_L_8.pdf</datasheet>
       <fields>
-        <field name="Código Digikey">311-2.2KARCT-ND</field>
+        <field name="Descripción">RES SMD 2.2K OHM 5% 1/8W 0805</field>
         <field name="Fabricante">Yageo</field>
         <field name="Nro de parte">RC0805JR-072K2L</field>
         <field name="Digikey">311-2.2KARCT-ND</field>
@@ -706,7 +706,7 @@
       <footprint>footprints:Pin_Header_Straight_1x20</footprint>
       <datasheet>M20-999.pdf</datasheet>
       <fields>
-        <field name="Descripción">20 Positions Header, Cuttable Connector 0.100" (2.54mm) Through Hole Tin</field>
+        <field name="Descripción">Cuttable Connector 0.100" (2.54mm) Through Hole Tin</field>
         <field name="Fabricante">Harwin Inc.</field>
         <field name="Nro de parte">M20-9992046</field>
         <field name="Digikey">952-1902-ND</field>
@@ -1097,7 +1097,7 @@
         <field name="Fabricante">Texas Instruments</field>
         <field name="Nro de parte">OPA2376AIDR</field>
         <field name="Digikey">296-22564-1-ND</field>
-        <field name="Footprint">8-SOIC (0.154", 3.90mm Width)</field>
+        <field name="Footprint">8-SOIC (0.154" 3.90mm Width)</field>
       </fields>
       <libsource lib="PonchoBiopotenciales" part="OPA2376"/>
       <sheetpath names="/ADS1299/" tstamps="/57BDC369/"/>
@@ -1333,7 +1333,7 @@
         <field name="Fabricante">Analog Devices Inc</field>
         <field name="Nro de parte">ADUM6401CRWZ</field>
         <field name="Digikey">ADUM6401CRWZ-ND</field>
-        <field name="Footprint">16-SOIC (0.295", 7.50mm Width)	</field>
+        <field name="Footprint">16-SOIC (0.295" 7.50mm Width)	</field>
       </fields>
       <libsource lib="PonchoBiopotenciales" part="ADuM6401-RESCUE-PonchoERG"/>
       <sheetpath names="/AISLACIÓN/" tstamps="/57BDC3A8/"/>
@@ -1348,7 +1348,7 @@
         <field name="Fabricante">Analog Devices Inc.</field>
         <field name="Nro de parte">ADUM2401ARWZ-RL</field>
         <field name="Digikey">ADUM2401ARWZ-RLCT-ND</field>
-        <field name="Footprint">16-SOIC (0.295", 7.50mm Width)</field>
+        <field name="Footprint">16-SOIC (0.295" 7.50mm Width)</field>
       </fields>
       <libsource lib="PonchoBiopotenciales" part="ADuM2401"/>
       <sheetpath names="/AISLACIÓN/" tstamps="/57BDC3A8/"/>
@@ -2158,7 +2158,7 @@
   </libparts>
   <libraries>
     <library logical="PonchoBiopotenciales">
-      <uri>kicadlibs\PonchoBiopotenciales.lib</uri>
+      <uri>D:\Repositorios\PonchoDeBiopotenciales\Hardware\kicadlibs\PonchoBiopotenciales.lib</uri>
     </library>
   </libraries>
   <nets>
